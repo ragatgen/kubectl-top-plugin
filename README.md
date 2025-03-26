@@ -31,10 +31,11 @@ kubectl top
 
 It will prompt you for a namespace and display resource usage for the pods in that namespace, followed by node resource usage.
 
-Requirements
+Check the installation
 
-Go installed (go version should return a valid version)
+command -v kubectl-top
 
-kubectl installed and configured
+ouput should be 
 
-Access to a Kubernetes cluster
+/usr/local/bin/kubectl-top
+
