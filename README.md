@@ -7,6 +7,8 @@ Installation
 Clone the repository:
 
 git clone https://github.com/ragatgen/kubectl-top-plugin.git
+
+
 cd kubectl-top-plugin
 
 Build the binary:
