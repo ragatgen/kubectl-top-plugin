@@ -1,4 +1,14 @@
-This plugin is on golan base code, if golan is not installed then you have to go troue the installation instructions here https://go.dev/doc/install
+This plugin is on golang base code, if golang is not installed then you have to go troue the installation instructions here https://go.dev/doc/install
+
+Or do
+
+sudo apt update
+
+sudo apt install -y golang
+
+go version
+
+Plugin installations
 
 
 kubectl-top-plugin
