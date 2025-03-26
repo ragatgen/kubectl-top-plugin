@@ -52,3 +52,23 @@ ouput should be
 
 /usr/local/bin/kubectl-top
 
+
+The working plugin should do the following successfully
+
+randra@Lenovo-WorkRG:/mnt/c/Users/ragatgen$ kubectl-top
+
+Enter the namespace to check: gorilla
+
+Pods resource usage in namespace: gorilla
+
+NAME                          CPU(cores)   MEMORY(bytes) 
+
+pod-lister-5cb9fbcddb-xr2dm   4m           1Mi
+
+Nodes resource usage:
+NAME                                CPU(cores)   CPU%   MEMORY(bytes)   MEMORY% 
+
+aks-nodepool1-29206393-vmss000006   157m         8%     5265Mi          104%
+
+aks-nodepool1-29206393-vmss000007   190m         10%    1776Mi          35%
+
