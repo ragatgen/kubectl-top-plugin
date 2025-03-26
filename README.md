@@ -1,3 +1,6 @@
+This plugin is on golan base code, if golan is not installed then you have to go troue the installation instructions here https://go.dev/doc/install
+
+
 kubectl-top-plugin
 
 A custom kubectl plugin to display resource usage for pods and nodes.
