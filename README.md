@@ -36,14 +36,6 @@ Move it to a directory in your PATH:
 
 sudo mv kubectl-top /usr/local/bin/
 
-Usage
-
-Run the plugin using:
-
-kubectl top
-
-It will prompt you for a namespace and display resource usage for the pods in that namespace, followed by node resource usage.
-
 Check the installation
 
 command -v kubectl-top
@@ -51,6 +43,14 @@ command -v kubectl-top
 ouput should be 
 
 /usr/local/bin/kubectl-top
+
+Usage
+
+Run the plugin using:
+
+kubectl-top
+
+It will prompt you for a namespace and display resource usage for the pods in that namespace, followed by node resource usage.
 
 
 The working plugin should do the following successfully
