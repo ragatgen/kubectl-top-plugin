@@ -2,15 +2,15 @@
 #Instructions  
 This plugin is on golang base code, if golang is not installed then you have to go through the installation instructions here https://go.dev/doc/install
 
-Or do
-
+Or do  
+```bash
 sudo apt update
 
 sudo apt install -y golang
 
 go version
 
-#Installation  
+#Information   
 
 
 kubectl-top-plugin
@@ -20,7 +20,7 @@ A custom kubectl plugin to display resource usage for pods and nodes.
 
 
 Clone the repository:
-
+```bash
 git clone https://github.com/ragatgen/kubectl-top-plugin.git
 
 
@@ -49,7 +49,7 @@ ouput should be
 Usage
 
 #Run the plugin using:  
-
+```bash
 kubectl-top
 
 It will prompt you for a namespace and display resource usage for the pods in that namespace, followed by node resource usage.
