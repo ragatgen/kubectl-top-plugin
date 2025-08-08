@@ -12,7 +12,7 @@ sudo apt install -y golang
 go version
 ```
 
-## Information   
+## Information & installation  
 
 
 kubectl-top-plugin
