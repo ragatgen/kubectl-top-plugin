@@ -48,7 +48,7 @@ ouput should be
 
 Usage
 
-Run the plugin using:
+#Run the plugin using:  
 
 kubectl-top
 
