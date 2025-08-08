@@ -1,5 +1,5 @@
 
-#Instructions  
+# Instructions  
 This plugin is on golang base code, if golang is not installed then you have to go through the installation instructions here https://go.dev/doc/install
 
 Or do 
@@ -10,8 +10,9 @@ sudo apt update
 sudo apt install -y golang
 
 go version
+```
 
-#Information   
+## Information   
 
 
 kubectl-top-plugin
@@ -47,10 +48,11 @@ command -v kubectl-top
 ouput should be 
 
 /usr/local/bin/kubectl-top
+```
 
-Usage
 
-#Run the plugin using:
+
+## Run the plugin using:
 
 ```bash
 kubectl-top
@@ -76,4 +78,5 @@ NAME                                CPU(cores)   CPU%   MEMORY(bytes)   MEMORY%
 aks-nodepool1-29206393-vmss000006   157m         8%     5265Mi          104%
 
 aks-nodepool1-29206393-vmss000007   190m         10%    1776Mi          35%
+```
 
