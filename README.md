@@ -1,5 +1,5 @@
 
-#Instructions
+#Instructions  
 This plugin is on golang base code, if golang is not installed then you have to go through the installation instructions here https://go.dev/doc/install
 
 Or do
@@ -10,14 +10,14 @@ sudo apt install -y golang
 
 go version
 
-#Plugin installations
+#Installation  
 
 
 kubectl-top-plugin
 
 A custom kubectl plugin to display resource usage for pods and nodes.
 
-#Installation
+
 
 Clone the repository:
 
