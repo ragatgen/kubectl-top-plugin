@@ -52,7 +52,7 @@ ouput should be
 
 
 
-## Run the plugin using:
+## Run the plugin:
 
 ```bash
 kubectl-top
